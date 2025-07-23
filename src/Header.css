@@ -1,0 +1,36 @@
+/* src/components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between; /* space between title and buttons */
+  align-items: center;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav-links button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #61dafb;
+  border: none;
+  padding: 10px 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links button:hover {
+  background-color: #21a1f1;
+}
+

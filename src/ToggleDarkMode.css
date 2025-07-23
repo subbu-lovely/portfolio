@@ -1,0 +1,18 @@
+/* src/components/ToggleDarkMode.css */
+.toggle-dark {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #1a73e8;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 999;
+  transition: background 0.3s;
+}
+
+.toggle-dark:hover {
+  background: #0d47a1;
+}

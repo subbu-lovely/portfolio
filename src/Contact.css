@@ -1,0 +1,16 @@
+/* src/components/Contact.css */
+.contact-section {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+.contact-section a {
+  color: #1a73e8;
+  font-weight: 500;
+}
+
+body.dark .contact-section a {
+  color: #64b5f6;
+}
